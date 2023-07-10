@@ -21,9 +21,9 @@ Se é a primeira vez rodando o programa, ele irá criar 3 arquivos na pasta raiz
 * `contas.json` - armazena dados das contas bancárias.
 <br>
 A aplicação em si apresenta 3 funções básicas: <br/>
- * **Realizar saque** - permite ao o usuário realizar saques, atualizando o valor do saldo posteriormente.
- * **Realizar depósito** - permite ao usuário realizar depósitos, atualizando então o saldo da conta.
- * **Visualização de extrato** - permite ao usuário visualizar todas as operações de saque e depósito da conta ativa ao longo dos últimos 30 dias.
+ - **Realizar saque** - permite ao o usuário realizar saques, atualizando o valor do saldo posteriormente.
+ - **Realizar depósito** - permite ao usuário realizar depósitos, atualizando então o saldo da conta.
+ - **Visualização de extrato** - permite ao usuário visualizar todas as operações de saque e depósito da conta ativa ao longo dos últimos 30 dias.
 
 ### Screenshots
 
