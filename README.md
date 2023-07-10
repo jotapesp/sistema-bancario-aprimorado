@@ -10,17 +10,16 @@ Esse projeto foi desenvolvido com a finalidade de criar funções de saque, dep�
 ### Como usar
 
 (PT-BR)
-Para rodar o programa, abra o terminal e use o comando
-`python app.py` . <br>
-O usuário pode se cadastrar, criando assim uma conta corrente no banco. O usuário pode ter mais de 1 conta associada a seu CPF, é só entrar no sistema e escolher para criar uma nova conta. <br>
-Se é a primeira vez rodando o programa, ele irá criar 3 arquivos na pasta raiz:
-* `saldos.json` - armazena o histórico de saldo da conta;
-* `depositos.json` - armazena o histórico de depósitos da conta;
-* `saques.json` - armazena o histórico de saques da conta.
-* `clientes.json` - armazena dados dos clientes do banco.
-* `contas.json` - armazena dados das contas bancárias.
-<br>
-A aplicação em si apresenta 3 funções básicas: <br/>
+- Para rodar o programa, abra o terminal e use o comando
+`python app.py` .
+- O usuário pode se cadastrar, criando assim uma conta corrente no banco. O usuário pode ter mais de 1 conta associada a seu CPF, é só entrar no sistema e escolher para criar uma nova conta.
+- Se é a primeira vez rodando o programa, ele irá criar 3 arquivos na pasta raiz:
+ * `saldos.json` - armazena o histórico de saldo da conta;
+ * `depositos.json` - armazena o histórico de depósitos da conta;
+ * `saques.json` - armazena o histórico de saques da conta.
+ * `clientes.json` - armazena dados dos clientes do banco.
+ * `contas.json` - armazena dados das contas bancárias.
+- A aplicação em si apresenta 3 funções básicas:
  - **Realizar saque** - permite ao o usuário realizar saques, atualizando o valor do saldo posteriormente.
  - **Realizar depósito** - permite ao usuário realizar depósitos, atualizando então o saldo da conta.
  - **Visualização de extrato** - permite ao usuário visualizar todas as operações de saque e depósito da conta ativa ao longo dos últimos 30 dias.
